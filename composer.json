@@ -7,6 +7,13 @@
             "email": "pedro.aos19@gmail.com"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "Pantheion\\Http\\": ""
+        }
+    },
     "minimum-stability": "dev",
-    "require": {}
+    "require": {
+        "pantheion/filesystem": "dev-master"
+    }
 }
