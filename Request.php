@@ -73,4 +73,11 @@ class Request
     {
         # code...
     }
+
+    public function resolveUrl()
+    {
+        return array_values(array_filter(explode("/", $this->path), function ($value) {
+            return $value !== "";
+        }));
+    }
 }
