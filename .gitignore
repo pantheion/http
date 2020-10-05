@@ -2,3 +2,4 @@ notes.txt
 index.php
 vendor/
 public/
+composer.lock
