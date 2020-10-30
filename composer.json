@@ -15,6 +15,7 @@
     "minimum-stability": "dev",
     "require": {
         "pantheion/filesystem": "dev-master",
-        "pantheion/session": "dev-master"
+        "pantheion/session": "dev-master",
+        "guzzlehttp/guzzle": "^7.1@dev"
     }
 }
